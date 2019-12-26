@@ -1,0 +1,451 @@
+/*Accuiel*/
+*
+{
+	margin:auto;
+}
+
+/*header*/
+
+header           
+{
+	position: fixed;
+	left:0 ;right: 0;
+	top: 20px;               
+	width: : 100%;
+	background-color:#4e3d28;
+	height: 40px;
+	overflow:hidden;
+	padding: 18px;
+	opacity: 0.6;
+}
+header h1
+{
+	float:left;
+	font-family:cursive;
+	color :#fff;
+}
+.logo
+{
+	color :black;
+	margin-top: 0px;
+	margin-left: 20px;
+	
+}
+header nav
+{
+	float:right;
+}
+header nav ul
+{
+	list-style-type: none;
+
+
+}
+header nav ul li
+{
+	float: left;
+	margin-right:30px;
+	font-size: 20px;
+
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+
+a:hover
+{
+	transition :1s;
+	background-color: grey;
+	font-family:cursive;
+	color:white;
+}
+
+body
+{
+	background-color:#fefee2;
+}
+
+/*contenue*/
+.article
+{
+     font-family: cursive;
+     margin-left: 300px;
+     font-size: 18px;
+}
+.ind{
+	height: 500px;
+	background:url('images/hotel.jpg')no-repeat;
+	background-size:100%;
+	padding:100px;
+}
+
+
+/*features*/
+.feature
+{
+	text-align: center ;
+	width: 1000px;
+	margin-top:20px;
+
+
+}
+.feature ul
+{
+	list-style-type: none;
+	overflow:hidden;
+}
+
+.feature ul li
+{
+	float:left;
+	text-shadow:
+	height: 160px;
+	overflow: hidden;
+	width :250px;
+	margin-right:10px;
+	padding-top:120px;
+}
+
+.feature .feat1
+{
+ 	background-size: 30px 30px;
+ 	margin-top: 10px;
+ 	margin-left: 200px
+}
+
+.feature .feat2
+{
+	background-size: 30px 30px;
+	margin-left: 200px
+
+}
+
+/*footer*/
+.footer
+{
+	position:fixed;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color:white;
+	text-align: center;
+	opacity: 0.6;
+}
+.twit
+{
+	margin-left:30px;
+}
+.fb
+{
+	margin-left:30px;
+}
+
+.def
+{
+	font-family: cursive;
+	margin-left: 230px;
+}
+/**************************************************************************/
+/*page de formulaire*/
+
+textarea
+{
+	color:grey;
+	opacity:0.4;
+}
+
+input
+{
+	background-color: black;
+	color:white;
+	opacity: 0.3;
+    margin-right: 200px;
+    height: 20px;
+    width: 200px;
+
+}
+.submit
+{
+	background-color: red;
+	color:white;
+	opacity: 0.5;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	width:80px ;height: 30px;
+}
+.etoile
+{
+	color:red;
+}
+.etoi
+{
+	color:red;
+
+
+} 
+
+.par
+{
+	font-size: xx-large;
+	padding-left :50px;
+	padding-right:0px;
+	border:4px solid white;
+	margin-left:370;
+	opacity:0.8;
+	background-color: rgb(236,223,164);
+	width:450px;
+
+
+}
+.reserv
+{
+	border:4px solid white;
+	margin-left:300px;
+	padding-right:80px;
+	padding-left:200px;
+	padding-top: 10px;
+	width:500px;
+}
+/*********************************************************************/
+
+/*page des chambres */
+
+#content ul div 
+{
+	list-style-type: none;
+}
+#content ul div li
+{
+	list-style-type: none;
+}
+#content h2
+{
+	margin-top:100px;
+	color:#483d8b;
+	margin-left: 500px;
+}
+
+.pres
+{
+   margin-top: 25px;
+   font-family: cursive;
+ margin-left: 120px;
+ margin-bottom: 50px;
+
+}
+
+.chamb1
+{
+   float:left;
+	height: 300px;
+	width: 420px;
+	border: 10px solid black;
+	margin-left: 100px;
+}
+.ch1
+{
+
+	padding: 20px;
+	font-family: cursive;
+	color: #483d8b;
+	margin-left:200px;
+}
+
+.p
+{
+	float:left;
+  
+}
+.uul1
+{
+	margin-left: 10px;
+    margin-top: 70px;
+	float:left;
+	font-family: cursive;
+
+
+}
+.chamb2
+{
+   float:right;
+	height: 300px;
+	width: 420px;
+	border: 10px solid black;
+	margin-right: 120px;
+	margin-left: 100px;
+}
+.ch2
+{
+
+	padding: 20px;
+	margin-top: 340px;
+    margin-left: 880px;
+	font-family: cursive;
+	color: #483d8b;
+
+}
+.uul2
+{
+	margin-right: 100px;
+    margin-top: 70px;
+	float:right;
+	font-family: cursive;
+}
+.ch3
+{
+
+	padding: 20px;
+	font-family: cursive;
+	color: #483d8b;
+	margin-left: 200px;
+	margin-top:340px;
+
+}
+.chamb3
+{
+    float:left;
+	height: 300px;
+	width: 420px;
+	border: 10px solid black;
+	margin-left: 100px;
+	
+}
+/**************************************************************************/
+
+/*services*/
+ .titre 
+{
+	color :#483d8b;
+	margin-left: 470px;
+	margin-top: 50px;
+	margin-bottom: 40px; 
+}
+.esi
+{
+	color:#fa8072;
+	margin-left: 520px;
+	margin-bottom: 35px; 
+
+}
+.ser
+{
+	margin-left: 180px;
+    font-family: cursive;
+    margin-top: 20px;
+}
+.ligne
+{
+	margin-left: 270px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.liste
+{
+	margin-left: 350px;
+	color:grey;
+
+}
+video
+{
+	margin-left: 440px;
+	margin-top:20px;
+}
+
+.aj
+{
+	font-size: 20px;
+}
+.link
+{
+	margin-top: 30px;
+	color:brown;
+}
+
+/* A propos de Boumerdes*/
+.titre1
+{
+	margin-left: 420px;
+	color :#483d8b;
+	margin-bottom:30px; 
+
+}
+#cont
+{
+	background-color: #fff;
+	min-height: 250px;
+	position: relative;
+	margin-top: 50px;
+	margin-right: 80px;
+	margin-bottom: 0px;
+	margin-left: 80px;
+	text-indent: 30px;
+	text-align: left;
+	font-family: cursive;
+	font-size: 18px;
+}
+#cont ul li{
+    position:relative;float:left;
+    width:200px;height:200px;padding:10px;list-style:none;
+}
+#cont ul div
+{
+	height:300px;
+}
+#cont ul li p{
+	text-align:center;
+	margin:0;
+}
+
+         
+#cont ul li a
+{
+    display:block;overflow:hidden;
+    width:200px;height:200px;
+    margin-top:0px;margin-left:0px;
+    border:0px solid rgba(0,0,0,0.7);
+    transition-property:width,height,margin,z-index,border;
+    transition-duration:0.4s;
+
+}
+
+#cont ul li a:hover
+{
+    position:absolute;
+    width:400px;height:400px;
+    margin-top:-56px;margin-left:-56px;
+    z-index:100;
+    border:6px solid rgba(0,0,0,0.7);
+    border: 10px solid black;
+}
+         
+#cont ul li a img{
+    position:absolute;
+    width:200px;height:200px;z-index:20;
+   transition-property:width,height,z-index;
+    transition-duration:0.4s;
+}        
+#cont ul li a:hover img{
+    width:400px;height:400px;
+    z-index:100;
+}
+.descr
+{
+	font-family: cursive;0
+	font-size: 16px;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+.map
+{
+	margin-left:360px;
+
+}
+.de
+{
+	margin-left: 450px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	font-family:cursive;
+}

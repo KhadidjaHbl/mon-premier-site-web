@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <title> Réservation </title>     
+    </head>
+ 
+    <body>
+        <header>
+    
+        <h1 class="logo">Esi hôtel </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Boumerdes.html">A propos de Boumerdes</a></li>
+                <li><a href="Service.html">Nos services</a></li>
+                <li><a href="Chambres.html">Chambres</a></li>
+                <li><a href="Réservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img class="dej" src="images/recc.jpg" title="Service" height="400" width="1350" alt="" />
+    <a class="link" href="index.html" > Accuiel > </a> <p class="aj"> Réservation </p>
+
+    <h1 class="titre"> <em> Réservez maintenant   </em> </h1>
+    <pre class="esi">   -- ESI HÖTEL -- </pre>
+                        
+                    <!--le formulaire de réservation-->
+
+                    <form method="post" action="http://www.esi-hotel.com/reserver.php">
+                    <section class="reserv">
+                         <strong>Vos cordonnées</strong>
+
+                                <p>  Votre nom : <span class="etoile">*</span> </p><br/>
+                                <input placeholder="Votre nom" type="text" name="Nom" /> <br/>
+                    
+                                <p >Votre prénom:<span class="etoile">*</span> </p><br />
+                                <input  placeholder="Votre prénom" type="text" name="Prenom"/><br/>
+                          
+                                <p>E-mail:<span class="etoile">*</span></p> <br />
+                                <input placeholder="email " type="E_mail" name="E_mail" /><br/>
+                            
+                                <p> Téléphone: </p> <br/>
+                                <input type="tel" name="Telephone"  placeholder="00 00 00 00 00"  /> <br/>
+                
+                      
+                            <strong> Réservation</strong> <br/>
+
+                            
+                                Date arrivée-Date départ: <span class="etoile">*</span><br />
+                                Arrivée : <input name=" date arrivée" type="date"> Départ : <input name="Date déaprt" type="date"><br/> <br/>
+                                <p>Nombre d'adultes:<span class="etoile">*</span></p> <br/>
+                                <input type="adultes" name="adultes"  /> <br/>
+                                <p>Nombre d'enfants:<span class="etoile">*</span></p> <br/>
+                                <input type="enfants" name="enfants"/> <br/>
+                                <p> nombre de chambres:<span class="etoile">*</span></p><br/>
+                                <input type="number" name="chambre"/> <br/>
+                                <p> Vous voulez réserver :</p>
+                                <select name="type de chambres">
+                                <option value="Chambre simple"> Chambre simple </option>
+                                <option value="chambre double"> chambre double </option>
+                                <option value="chambre twin"> chambre twin </option>
+                                </select>
+
+                            <p><br/><span class="etoi">*</span> indique que le champ est obligatoire.</p>
+                            <input  class="submit" type="submit" value="Envoyer" />
+                </section>    
+                </form>
+       
+
+        <!--footer-->
+
+        <footer>
+        <div class="footer">
+            <p> © 2018 Esi Hôtel.Tous droits réservés </p>
+        </div>
+        </footer>
+   
+    </body>
+</html>
